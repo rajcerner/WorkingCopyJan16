@@ -32,7 +32,7 @@ public class UtilityMethods extends Settings
 
 	public UtilityMethods verify(Boolean status, String stepDesc) //Verify status Boolean
 	{
-		softAssert.assertTrue(status);
+		//softAssert.assertTrue(status);
 		try{
 			Assert.assertTrue(status);
 			test.log(LogStatus.PASS, stepDesc);
@@ -47,7 +47,7 @@ public class UtilityMethods extends Settings
 
 	public UtilityMethods verifyFalse(Boolean status, String stepDesc) //Verify status Boolean is false
 	{
-		softAssert.assertFalse(status);
+		//softAssert.assertFalse(status);
 		try{
 			Assert.assertFalse(status);
 			test.log(LogStatus.PASS, stepDesc);
@@ -62,7 +62,7 @@ public class UtilityMethods extends Settings
 
 	public UtilityMethods verifyWithScreen(String actual, String expected, String stepDesc, String testName, String imageName) //Verify actual string vs expected with screenshot
 	{
-		softAssert.assertEquals(actual, expected);
+		//softAssert.assertEquals(actual, expected);
 		captureScreenshot(driver, testName, imageName);
 		try{	
 			Assert.assertEquals(actual, expected);
@@ -78,7 +78,7 @@ public class UtilityMethods extends Settings
 
 	public UtilityMethods verifyWithScreen(Boolean status, String stepDesc, String testName, String imageName) //Verify status Boolean with screenshot
 	{
-		softAssert.assertTrue(status);
+		//softAssert.assertTrue(status);
 		captureScreenshot(driver, testName, imageName);
 		try{	
 			Assert.assertTrue(status);
