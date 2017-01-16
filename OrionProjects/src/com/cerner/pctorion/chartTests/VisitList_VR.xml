@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="ORN_VR_VISITLIST">
+<parameter name="domain" value="Dev" />
+
+  <test name="ChartChrome">
+  	<parameter name="component" value="Chart" />      
+    <parameter name="browser" value="chrome" />
+  
+    <classes>
+      <class name="com.cerner.pctorion.chartTests.ORN_VR_VISITLIST"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

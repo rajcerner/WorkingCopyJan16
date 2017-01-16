@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ORN_VR_PatientSearch" >
+  <parameter name="domain" value="Dev" />
+    
+ <test name="PlatformChrome">
+    <parameter name="component" value="Platform" />      
+    <parameter name="browser" value="chrome" />
+    <classes>
+     <class name="com.cerner.pctorion.platformTests.ORN_VR_PatientSearch"/>     
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ORN_VR_VISITLIST]">
+  <parameter name="domain" value="Dev"/>
+  <test name="ChartChrome(failed)">
+    <parameter name="component" value="Chart"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cerner.pctorion.chartTests.ORN_VR_VISITLIST">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ornVrVisitList"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.cerner.pctorion.chartTests.ORN_VR_VISITLIST -->
+    </classes>
+  </test> <!-- ChartChrome(failed) -->
+</suite> <!-- Failed suite [ORN_VR_VISITLIST] -->

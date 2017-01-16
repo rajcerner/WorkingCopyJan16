@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="Resources/selenium-server-standalone-3.0.0.jar"/>
+	<classpathentry kind="lib" path="Resources/freemarker.jar"/>
+	<classpathentry kind="lib" path="Resources/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="Resources/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="Resources/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="Resources/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="Resources/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="Resources/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="Resources/jsoup-1.10.1.jar"/>
+	<classpathentry kind="lib" path="Resources/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="Resources/poi-3.15.jar"/>
+	<classpathentry kind="lib" path="Resources/poi-examples-3.15.jar"/>
+	<classpathentry kind="lib" path="Resources/poi-excelant-3.15.jar"/>
+	<classpathentry kind="lib" path="Resources/poi-ooxml-3.15.jar"/>
+	<classpathentry kind="lib" path="Resources/poi-ooxml-schemas-3.15.jar"/>
+	<classpathentry kind="lib" path="Resources/poi-scratchpad-3.15.jar"/>
+	<classpathentry kind="lib" path="Resources/selenium-java-3.0.0.jar"/>
+	<classpathentry kind="lib" path="Resources/testng.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

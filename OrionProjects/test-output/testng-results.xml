@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ORN_VR_VISITLIST" duration-ms="168879" started-at="2017-01-16T11:48:47Z" finished-at="2017-01-16T11:51:36Z">
+    <groups>
+    </groups>
+    <test name="ChartChrome" duration-ms="168879" started-at="2017-01-16T11:48:47Z" finished-at="2017-01-16T11:51:36Z">
+      <class name="com.cerner.pctorion.chartTests.ORN_VR_VISITLIST">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cerner.pctorion.chartTests.ORN_VR_VISITLIST@18be83e4]" name="setup" is-config="true" duration-ms="1427" started-at="2017-01-16T17:18:47Z" finished-at="2017-01-16T17:18:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chart]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ornVrVisitList()[pri:0, instance:com.cerner.pctorion.chartTests.ORN_VR_VISITLIST@18be83e4]" name="ornVrVisitList" duration-ms="167126" started-at="2017-01-16T17:18:48Z" finished-at="2017-01-16T17:21:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ornVrVisitList -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cerner.pctorion.chartTests.ORN_VR_VISITLIST@18be83e4]" name="tearDown" is-config="true" duration-ms="313" started-at="2017-01-16T17:21:35Z" finished-at="2017-01-16T17:21:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cerner.pctorion.chartTests.ORN_VR_VISITLIST -->
+    </test> <!-- ChartChrome -->
+  </suite> <!-- ORN_VR_VISITLIST -->
+</testng-results>
